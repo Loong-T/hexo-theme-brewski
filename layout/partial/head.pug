@@ -15,3 +15,15 @@ link(rel='icon', href=url_for(theme.favicon))
 link(rel='stylesheet', href='https://unpkg.com/nanoreset@3.0.1/nanoreset.min.css')
 link(rel='stylesheet', href=url_for('css/theme.css'))
 link(rel='search', type='application/opensearchdescription+xml', href=url_for('atom.xml'), title=config.title)
+
+//- Global site tag (gtag.js) - Google Analytics
+if theme.google_analytics
+    - let googleAnalyticsId = theme.google_analytics
+    script(src=`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}` async)
+    script.
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', googleAnalyticsId);
+
