@@ -11,3 +11,12 @@ if theme.disqus
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     script(id='dsq-count-scr' src='//'+ theme.disqus + '.disqus.com/count.js' async)
+
+if theme.waline
+    #waline
+    script(src="//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js" async)
+    script.
+        new Waline({
+            el: '#waline',
+            path: theme.waline,
+        });

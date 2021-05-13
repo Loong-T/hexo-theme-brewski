@@ -15,6 +15,9 @@ logo: /logo.svg
 # Disqus shortname
 disqus:
 
+# Waline server url
+waline:
+
 # Analytics
 google_analytics:
 
