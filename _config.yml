@@ -3,9 +3,7 @@ url: https://github.com/Loong-T/hexo-theme-brewski
 
 menu:
   Home: /
-  Tags: /tags
   Archives: /archives
-  GitHub: 
   RSS: /atom.xml
 
 favicon: /favicon.svg
