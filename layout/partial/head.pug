@@ -12,7 +12,7 @@ block description
     
 
 link(rel='icon', href=url_for(theme.favicon))
-link(rel='stylesheet', href='https://unpkg.com/nanoreset@3.0.1/nanoreset.min.css')
+link(rel='stylesheet', href='https://unpkg.com/nanoreset/nanoreset.min.css')
 link(rel='stylesheet', href=url_for('css/theme.css'))
 link(rel='search', type='application/opensearchdescription+xml', href=url_for('atom.xml'), title=config.title)
 
@@ -25,5 +25,5 @@ if theme.google_analytics
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', googleAnalyticsId);
+        gtag('config', '#{googleAnalyticsId}');
 

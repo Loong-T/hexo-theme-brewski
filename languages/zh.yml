@@ -6,3 +6,8 @@ read_more: '阅读更多&hellip; '
 untitled: (未命名)
 translate_original: Translate the original address
 meta_description: 一个由 Hexo 构建的博客
+Home: 首页
+About: 关于
+Archives: 归档
+Tags: 标签
+post_date: '发表时间：'

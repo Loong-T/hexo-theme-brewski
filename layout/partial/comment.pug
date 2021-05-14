@@ -14,9 +14,13 @@ if theme.disqus
 
 if theme.waline
     #waline
-    script(src="//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js" async)
+    script(src="//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js" defer)
     script.
-        new Waline({
-            el: '#waline',
-            path: theme.waline,
+        document.addEventListener('DOMContentLoaded', (event) => {
+            new Waline({
+                el: '#waline',
+                placeholder: '#{theme.waline.placehoder}',
+                path: location.pathname,
+                serverURL: '#{theme.waline.server_url}'
+            });
         });

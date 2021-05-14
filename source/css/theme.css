@@ -264,33 +264,33 @@ header .nav-list-item a {
 
 .post-content h1,
 .post-block .post-title {
-  margin-top: 2em;
-  font-size: 3em;
+  margin-top: 1em;
+  font-size: 2em;
 }
 
 .post-content h2 {
-  margin-top: 1.8em;
-  font-size: 2.8em;
+  /* margin-top: 1.8em; */
+  font-size: 1.7em;
 }
 
 .post-content h3 {
-  margin-top: 1.6em;
-  font-size: 2.6em;
+  /* margin-top: 1.6em; */
+  font-size: 1.25em;
 }
 
 .post-content h4 {
-  margin-top: 1.4em;
-  font-size: 2.4em;
+  /* margin-top: 1.4em; */
+  font-size: 1.15em;
 }
 
 .post-content h5 {
-  margin-top: 1.2em;
-  font-size: 2.2em;
+  /* margin-top: 1.2em; */
+  font-size: 1.1em;
 }
 
 .post-content h6 {
-  margin-top: 1em;
-  font-size: 2em;
+  /* margin-top: 1em; */
+  font-size: 1em;
 }
 
 .post-content a {
@@ -427,8 +427,7 @@ code,
 pre {
   font-size: .8em;
   background-color: #f8f8f8;
-  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro",
-    monospace;
+  font-family: ui-monospace,"Cascadia Mono","Segoe UI Mono","Ubuntu Mono","Roboto Mono",Menlo,Monaco,Consolas,monospace
 }
 
 .highlight {
@@ -452,7 +451,7 @@ pre {
 }
 .highlight .code pre {
   padding: 1.2em 1.4em;
-  line-height: 1.5em;
+  line-height: 1.3em;
   margin: 0;
 }
 .highlight .code pre .line {
@@ -656,4 +655,10 @@ pre .emphasis {
 }
 pre .strong {
   font-weight: 600;
+}
+
+#post-date {
+  text-align: right;
+  font-size: 0.8em;
+  color: #777879;
 }

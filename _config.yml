@@ -1,12 +1,11 @@
 name: Brewski
-url: https://github.com/tiaanduplessis/hexo-theme-brewski
+url: https://github.com/Loong-T/hexo-theme-brewski
 
 menu:
   Home: /
-  About: /about
+  Tags: /tags
   Archives: /archives
-  Impressum:
-  GitHub:
+  GitHub: 
   RSS: /atom.xml
 
 favicon: /favicon.svg
@@ -17,12 +16,14 @@ disqus:
 
 # Waline server url
 waline:
+  server_url: 
+  placeholder: 
 
 # Analytics
-google_analytics:
+google_analytics: 
 
 # Copyright Infomation
 copyright:
-  since:
-  name:
-  url:
+  since: 
+  name: 
+  url: 
