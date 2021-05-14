@@ -14,7 +14,7 @@ logo: /logo.svg
 # Disqus shortname
 disqus:
 
-# Waline server url
+# Waline
 waline:
   server_url: 
   placeholder: 
